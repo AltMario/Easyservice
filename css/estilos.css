@@ -1,0 +1,332 @@
+/*texto*/
+h3
+{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-bottom: 0.2em;
+}
+section p{
+    font-family: 'Lato' ,sans-serif;
+    font-size: 1.2em;
+}
+/*Navegacion*/
+.navbar{
+    background-color: #242424;
+    border-bottom: 1px solid #b9b9b9;
+} 
+.navbar a{
+    
+    color: #ffffff !important;  
+}
+.navbar a:hover
+{
+    color: #ffffff !important;
+    background-color: #646464 !important;
+}
+.navbar-header .navbar-brand
+{
+    color: #ffffff !important;
+    font-size: 1.5em;
+}
+/*cabezal*/
+.header
+{
+    padding: 140px 0 60px 0;
+    background: url(../img/1.jpeg) no-repeat center  center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 2px solid #c9c9c9;
+    text-align:  center;
+}
+
+.header h1
+{
+    color: #fff;
+    font-size: 7em;    
+    font-family: 'Pacifico' , sans-serif;
+   /* margin-bottom: 50px;*/
+}
+.header p
+{
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Lato' ,sans-serif;
+    font-weight: 700;
+}
+
+/*Botones*/
+.header .btn{
+    padding: 5px 50px 5px 50px;
+}
+
+/* boton 3d*/
+  .boton {
+      display: inline-block;
+      background: #FF7452;
+      color:  white;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      border-radius: 3px;
+      box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+      cursor: pointer;
+       -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+
+}
+.boton:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
+          text-decoration: none;
+}
+.gym
+{
+    text-align: center;
+    background: #f4f2ed;
+    border-bottom: 1px solid #dedcd7;
+    padding: 50px 0;
+}
+.gym h1{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+    padding-bottom: 0.2em;
+}
+
+.profesores{
+    text-align: center;
+    padding: 50px;
+}
+
+
+/*iconos*/
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-3";
+  src:url("../fonts/untitled-font-3.eot");
+  src:url("../fonts/untitled-font-3.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/untitled-font-3.woff") format("woff"),
+    url("../fonts/untitled-font-3.ttf") format("truetype"),
+    url("../fonts/untitled-font-3.svg#untitled-font-3") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-3" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-3" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dieta:before {
+  content: "\61";
+    font-size:3em;
+}
+.icon-descanso:before {
+  content: "\62";
+    font-size:3em;
+}
+.icon-progreso:before {
+  content: "\64";
+    font-size:3em;
+}
+.icon-users:before {
+  content: "\65";
+    font-size:3em;
+}
+.icon-facebook-official:before {
+  content: "\66";
+}
+.icon-twitter:before {
+  content: "\63";
+}
+.icon-google-plus:before {
+  content: "\67";
+}
+.icon-planificacion:before {
+  content: "\68";
+    font-size:3em;
+}
+.icon-consejos:before {
+  content: "\69";
+    font-size:3em;
+}
+.icon-instagram:before {
+  content: "\6a";
+}
+
+.icono{
+    font-size: 4em!important;
+}
+
+.app{
+    background-color: #137cc1;
+    text-align:  center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+
+/* Marcas*/
+
+.marca{
+    border-top: 1px solid #e8e8e8;
+    padding: 50px 0;
+    text-align: center;
+}
+.marca p{
+    padding-bottom: 15px;
+}
+.marca .marcas-logo li img
+{
+    opacity: 0.3;
+}
+.marca .marcas-logo li:hover img
+{
+    opacity: 1;
+}
+
+/***** Parallax***/
+
+
+section.parallax{
+    height: 550px;
+    background-image: url(/img/clases-de-boxeo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax h3{
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 220px;
+    text-shadow: 0px 7px 8px black;
+    -webkit-text-shadow: 0px 7px 8px black;
+    -moz-text-shadow: 0px 7px 8px black;
+}
+
+/*consejos*/
+section.consejos h3
+{
+    text-align:  center;
+}
+section.consejos{
+    padding: 50px 0;
+    
+}
+.thumbnail{
+    position:  relative;
+    overflow: hidden;
+}
+.caption{
+    position:  absolute;
+    top: 100%;
+    right: 0;
+    background: rgba(0,0,0 ,0.81);
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    text-align: center;
+    color: #fff !important;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+}
+.thumbnail:hover .caption{
+    top: 0;
+}
+
+/* mapa*/
+section.mapa{
+    text-align:  center;
+    margin-top: 100px;
+}
+section h3{
+    text-align:  center;
+}
+
+/* redes sociales */
+section.social{
+    padding: 50px 0;
+    background: #242424;
+}
+section.social a
+{
+    text-decoration: none;
+    
+}
+section.social [class^="icon-"]
+{
+    color: #333;
+    font-size: 3em;
+}
+section.social .icon-facebook-official:hover
+{
+    color: #3b5988;
+}
+section.social .icon-twitter:hover
+{
+    color: #33ccff;
+}
+section.social .icon-instagram:hover
+{
+    color: #125688;
+}
+section.social .icon-google-plus:hover
+{
+    color:#bd3518;
+}
+/* footer*/
+footer{
+    padding: 20px 0;
+   /* background: #242424;*/
+    text-align: center;
+    
+}
+footer p{
+    color: #fff;
+    font-size: 1em;
+}
+.footer{
+    padding: 20px 0;
+    background: #242424;
+    text-align: center;
+    
+}
+.footer p{
+    color: #fff;
+    font-size: 1em;
+}
+.d{
+    margin: 20% auto 0;
+}
+.p{
+    margin: 5% auto 0;
+}
+.e{
+    margin: 30px auto 0px ;
+}
