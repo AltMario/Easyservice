@@ -284,22 +284,11 @@ section.social [class^="icon-"]
     color: #333;
     font-size: 3em;
 }
-section.social .icon-facebook-official:hover
+section.social :hover
 {
-    color: #3b5988;
+    color: #fff;
 }
-section.social .icon-twitter:hover
-{
-    color: #33ccff;
-}
-section.social .icon-instagram:hover
-{
-    color: #125688;
-}
-section.social .icon-google-plus:hover
-{
-    color:#bd3518;
-}
+
 /* footer*/
 footer{
     padding: 20px 0;
@@ -335,3 +324,47 @@ footer p{
     margin: 5% auto 0;
 }
 }
+
+.faceul
+{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+}
+ .faceul .faceli{
+      list-style: none;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      animation: animate 1.6s ease-in-out infinite;
+
+      }
+        @keyframes animate{
+        0%, 40%, 100%
+        {
+          transform: scale(0.5);
+        }
+        20%
+        {
+          transform: scale(1.2);
+        }
+      }
+
+        .faceul .faceli:nth-child(1){
+        animation-delay:-1.4s;
+        background-color: #3b5988;
+      }
+      .faceul .faceli:nth-child(2){
+        animation-delay:-1.2s;
+        background-color: #33ccff;
+      }
+      .faceul .faceli:nth-child(3){
+        animation-delay:-1s;
+        background-color: #125688;
+      }
+      .faceul .faceli:nth-child(4){
+        animation-delay:-0.8s;
+        background-color: #bd3518;
+      }
